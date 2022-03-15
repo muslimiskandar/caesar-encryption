@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/muslimiskandar/caesar-encryption/static/css/main.e33cddad.css",
+    "main.js": "/muslimiskandar/caesar-encryption/static/js/main.7c7ded84.js",
+    "index.html": "/muslimiskandar/caesar-encryption/index.html",
+    "main.e33cddad.css.map": "/muslimiskandar/caesar-encryption/static/css/main.e33cddad.css.map",
+    "main.7c7ded84.js.map": "/muslimiskandar/caesar-encryption/static/js/main.7c7ded84.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e33cddad.css",
+    "static/js/main.7c7ded84.js"
+  ]
+}
