@@ -68,7 +68,9 @@ function App() {
 
   return (
     <div className="App">
-      <h2>Sezar şifrələnməsi</h2>
+      <header>
+        <h2>Sezar şifrələnməsi</h2>
+      </header>
       <div className="main">
         <form onSubmit={handleSubmit}>
           <label>Mətni daxil edin:</label>

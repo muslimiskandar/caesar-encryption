@@ -25,15 +25,19 @@ code {
   align-items: center;
 }
 
-.App h2 {
+.App header {
   background-color: navy;
   text-align: center;
   height: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: white;
   margin-bottom: 30px;
+  color: white;
+  /* width: 112%; */
+}
+
+.App h2 {
 }
 
 .App > .main form {
@@ -41,7 +45,7 @@ code {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 400px;
+  /* max-width: 400px; */
   margin: 0 auto;
   text-align: center;
 }
@@ -90,4 +94,12 @@ code {
 
 footer {
   text-align: center;
+}
+
+
+@media only screen and (max-width: 600px) {
+  /* For mobile: */
+  .App header {
+    /* width: 100%; */
+  }
 }
