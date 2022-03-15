@@ -1,13 +1,93 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.App h2 {
+  background-color: navy;
+  text-align: center;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.App > .main form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.App > .main > form > input,
+.App > .main > form > textarea {
+  width: 100%;
+  height: 30px;
+  font-size: 18px;
+}
+
+.App > .main > form > textarea {
+  max-width: 100%;
+  height: 100px;
+}
+
+.App > .main > form > input:focus {
+  border: 1px solid blue;
+  transition: 1.5s;
+  outline: none;
+}
+
+.App > .main > form > label {
+  font-size: 13px;
+  margin-top: 10px;
+}
+
+.App > .main > form > button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  background: linear-gradient(170deg, rgb(81, 27, 207), rgb(23, 2, 116));
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  height: 35px;
+  color: white;
+  border-radius: 5px;
+}
+
+.App > .main > form > button:hover {
+  background: linear-gradient(150deg, rgb(73, 24, 187), rgb(17, 2, 85));
+  transition: 3s;
+}
+
+footer {
+  text-align: center;
 }
